@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "api/expenses.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/expenses",
+      "destination": "/api/expenses.js"
+    }
+  ]
+}
